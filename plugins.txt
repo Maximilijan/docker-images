@@ -1,7 +1,0 @@
-copyartifact:latest
-htmlpublisher:latest
-junit:latest
-xunit:latest
-mailer:latest
-ant:latest
-git:latest
