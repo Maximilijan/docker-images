@@ -1,0 +1,12 @@
+version: "3"
+services:
+  jenkins:
+    build: ./image
+    image: jenkins-soapui
+    ports:
+      - "8081:8080"
+    volumes:
+      - /var/jenkins:/var/jenkins_home
+    environment:
+      - SOAPUI_PATH=/usr/local/soapui
+      - SOAPUI_VERSION=5.3.0
